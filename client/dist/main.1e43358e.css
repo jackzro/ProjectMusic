@@ -1,0 +1,171 @@
+.control{
+    margin-top: -250px;
+    color: white;
+}
+
+#form-login{
+    width: 500px;
+    background: black;
+    margin: 200px auto;
+    padding: 50px 0;
+    color:#fff;
+    box-shadow: 0 0 20px 2px black;
+}
+
+#h2-login {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.form-login-email,.form-login-password{
+    margin: 31px auto;
+    width:80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#input-email-login,#input-password-login{
+    width: 90%;
+    border:none;
+    outline:none;
+    background: transparent;
+    color:#fff;
+}
+
+::placeholder{
+    color: #ccc;
+        
+}
+
+#loginbutton {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+
+}
+
+::-webkit-input-placeholder {
+/* Chrome/Opera/Safari */
+color: #c5ecfd;
+}
+
+.g-signin-button {
+    /* This is where you control how the button looks. Be creative! */
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    background-color: #00a4a2;
+    color: #fff;
+    box-shadow: 0 3px 0 #00fffc;
+    cursor: pointer;
+}
+.control{
+    margin-top: -250px;
+    color: white;
+}
+
+#form-register{
+    width: 500px;
+    background: rgba(0,0,0,0.8);
+    margin: 200px auto;
+    padding: 50px 0;
+    color:#fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+#h2-register {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.form-register-email,.form-register-password{
+    margin: 31px auto;
+    width:80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+#input-email,#input-password{
+    width: 90%;
+    border:none;
+    outline:none;
+    background: transparent;
+    color:#fff;
+}
+
+::placeholder{
+    color: #ccc;
+        
+}
+
+
+#registerbutton {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+
+}
+
+::-webkit-input-placeholder {
+/* Chrome/Opera/Safari */
+color: #c5ecfd;
+}
+.card{
+    margin-top: 10px;
+    background-color: slategray;
+}
+.logout[data-v-cf0ef5]{
+    display: flex;
+    justify-content: flex-end;
+}
+h1[data-v-cf0ef5]{
+    color:royalblue;
+    text-align: center;
+}
+.listAlbum[data-v-cf0ef5]{
+    color: white;
+    background: black;
+    text-align: center;
+}
+.card-title[data-v-d0587c]{
+    color: white;
+}
+.cancel[data-v-7b70d5]{
+    display: flex;
+    justify-content: flex-end;
+}
+h1[data-v-7b70d5]{
+    color:royalblue;
+    text-align: center;
+}
+.listSong[data-v-7b70d5]{
+    color: white;
+    background: black;
+    text-align: center;
+}
+body{
+    background-image: url("/coldplay.1d6df0a2.jpg");
+}
+.landingPage{
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    color: black;
+}
