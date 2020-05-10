@@ -190,7 +190,7 @@ _Response (500 - Internet Server Error)_
 
 ### GET / song
 
-> login user 
+> get list song of an album
 
 _Request Header_
 ```
