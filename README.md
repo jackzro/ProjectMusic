@@ -173,6 +173,13 @@ _Response (200)_
 }
 ```
 
+_Response (404 - Not Found)_
+```
+{
+  "message":"token not found"
+}
+```
+
 _Response (500 - Internet Server Error)_
 ```
 {
@@ -332,10 +339,9 @@ _Response (200)_
 _Response (404 - Not Found)_
 ```
 {
-  "message":"Invalid email or password"
+  "message":"token not found"
 }
 ```
-
 
 _Response (500 - Internet Server Error)_
 ```

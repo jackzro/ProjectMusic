@@ -54,7 +54,7 @@ export default {
             const profile = googleUser.getBasicProfile() // etc etc
             let id_token = googleUser.getAuthResponse().id_token;
             axios({
-                url: "http://localhost:3000/googleSignIn",
+                url: "https://musikproject.herokuapp.com/googleSignIn",
                 data: {
                 id_token:id_token
                 },

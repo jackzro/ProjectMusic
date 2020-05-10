@@ -15,10 +15,10 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "pmfhqjdgjsgdhk",
-    "password": "3f207287bfc4dfb0d634a97bc1786144a6e6d3ab5fad1009093331ad3bdcc07e",
-    "database": "d72mmsvvnp2gvr",
-    "host": "ec2-54-81-37-115.compute-1.amazonaws.com",
+    "username": "wddjalbuaelank",
+    "password": "768f637bf93f3bbb7d7be55067650ccd6c0168b2027ed1ef9a13c42c7baf65bd",
+    "database": "dak6i7kqlutn6n",
+    "host": "ec2-184-72-235-159.compute-1.amazonaws.com",
     "dialect": "postgres"
   }
 }

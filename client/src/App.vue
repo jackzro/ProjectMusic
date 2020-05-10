@@ -61,7 +61,7 @@ export default {
         registerForm(member){
             axios({
                 method:"post",
-                url:"http://localhost:3000/register",
+                url:"https://musikproject.herokuapp.com/register",
                 data:{
                     email:member.email,
                     password:member.password
@@ -84,7 +84,7 @@ export default {
         loginForm(anggota){
             axios({
                 method:'post',
-                url:"http://localhost:3000/login",
+                url:"https://musikproject.herokuapp.com/login",
                 data:{
                     email:anggota.email,
                     password:anggota.password
@@ -110,7 +110,7 @@ export default {
             const token=localStorage.getItem('token')
             axios({
                 method:"get",
-                url:"http://localhost:3000/album",
+                url:"https://musikproject.herokuapp.com/album",
                 headers:{
                     token:token
                 }
@@ -133,7 +133,7 @@ export default {
             const token=localStorage.getItem('token')
             axios({
                 method:"get",
-                url:"http://localhost:3000/song",
+                url:"https://musikproject.herokuapp.com/song",
                 params:{
                     album_id:id,
                 },

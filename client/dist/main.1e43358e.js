@@ -10716,7 +10716,7 @@ var _default = {
 
       var id_token = googleUser.getAuthResponse().id_token;
       (0, _axios.default)({
-        url: "http://localhost:3000/googleSignIn",
+        url: "https://musikproject.herokuapp.com/googleSignIn",
         data: {
           id_token: id_token
         },
@@ -11636,7 +11636,7 @@ var _default = {
 
       (0, _axios.default)({
         method: "post",
-        url: "http://localhost:3000/register",
+        url: "https://musikproject.herokuapp.com/register",
         data: {
           email: member.email,
           password: member.password
@@ -11660,7 +11660,7 @@ var _default = {
 
       (0, _axios.default)({
         method: 'post',
-        url: "http://localhost:3000/login",
+        url: "https://musikproject.herokuapp.com/login",
         data: {
           email: anggota.email,
           password: anggota.password
@@ -11689,7 +11689,7 @@ var _default = {
       var token = localStorage.getItem('token');
       (0, _axios.default)({
         method: "get",
-        url: "http://localhost:3000/album",
+        url: "https://musikproject.herokuapp.com/album",
         headers: {
           token: token
         }
@@ -11713,7 +11713,7 @@ var _default = {
       var token = localStorage.getItem('token');
       (0, _axios.default)({
         method: "get",
-        url: "http://localhost:3000/song",
+        url: "https://musikproject.herokuapp.com/song",
         params: {
           album_id: id
         },
@@ -11938,7 +11938,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63232" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61869" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
