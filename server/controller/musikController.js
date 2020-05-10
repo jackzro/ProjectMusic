@@ -5,7 +5,11 @@ class MusikController{
     static album(req,res,next){
         axios.get(`https://api.musixmatch.com/ws/1.1/artist.albums.get?artist_id=1039&s_release_date=desc&page_size=100&apikey=${apikey}`)
         .then(data=>{
-            res.status(200).json(data.data)
+            if(data.data.message.header.status_code!==200){
+                next(err)
+            }else{
+                res.status(200).json(data.data)
+            }
         })
         .catch(err=>{
             next(err)
